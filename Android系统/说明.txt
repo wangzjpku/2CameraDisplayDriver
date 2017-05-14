@@ -1,0 +1,23 @@
+在Android系统使用USB Camera的前提必须是：
+在底层Linux系统里要加载UVC驱动模块，否则不能用，没有其他办法
+
+UVC驱动是Linux系统里集成的，不是我们提供的，不要向我们要驱动
+关于如何在Linux系统配置UVC，请看说明
+
+在主流的Android硬件平台上都可以开发使用，如：
+全志A20 A31S A80等
+瑞芯微RK3系列
+三星Exynos4系列 5系列
+飞思卡尔IMX6系列
+
+Android平板电脑一般都不支持UVC，如果一定要在平板上使用，建议选用我公司生产平板电脑 连接 https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-2286434708.42.Olq8c6&id=520887990318
+
+Android手机有部分高端手机支持UVC，可以使用摄像头
+常用的有：小米3、小米4、三星S4、S5部分型号
+如何查看系统是否支持UVC，请参见《查看手机是否支持UVC驱动》
+
+应用开发人员请参考《锐尔威视Mjpeg_USB_Camera_Android开发文档.pdf》
+
+
+
+

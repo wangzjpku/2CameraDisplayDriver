@@ -1,0 +1,4 @@
+amcap软件，在windowsXP SP2以上的系统上，直接打开使用，见《使用说明》
+VLC多媒体播放器，支持USB摄像头预览，官网：http://www.videolan.org/
+SDK目录是windows平台的开发源码，包含AMCAP应用源码
+如果使用500万像素MJPEG预览，需要使用mjpegcodecv插件
